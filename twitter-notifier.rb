@@ -41,5 +41,5 @@ tweets.each do |tweet|
     end
 end
 
-# Sends an e-mail with the report written in body_message.txt
-system "mail -s '#{subject}' '#{email}' < body_message.txt"
+# Sends an e-mail with the report written in body_message.txt - NOT SENDING MESSAGE FROM THIS SCRIPT - MANAGED BY OUR JENKINS
+#system "mail -s '#{subject}' '#{email}' < body_message.txt" 
