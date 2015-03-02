@@ -25,7 +25,7 @@ tweets = doc.css('div.ProfileTweet')
 count = 0
 
 File.open('body_message.txt','w') do |file|
-    file.puts "Scraped #{url} and got 5 most recent tweets\n"
+    file.puts "Scraped #{twitter_account_url} and got 5 most recent tweets\n"
 end
 
 tweets.each do |tweet|
